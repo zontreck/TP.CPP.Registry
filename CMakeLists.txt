@@ -4,6 +4,7 @@ project(TP.CPP.Registry VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
+
 add_subdirectory(source)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
